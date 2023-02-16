@@ -2,9 +2,7 @@
 function App() {
   return (
     <div>
-      <h1>Hii farnaz</h1>
-
-      
+      <h1>React Created</h1>
     </div>
   );
 }
