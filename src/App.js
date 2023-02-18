@@ -1,11 +1,11 @@
-
+import {useRoutes} from "react-router-dom"
+import {routes} from "./routes"
 function App() {
+  let routers= useRoutes(routes)
   return (
-    <div>
-      <h1>React Created</h1>
-    <br />
-    <h3>it is test</h3>
-    </div>
+    <>
+    {routers}
+    </>
   );
 }
 
